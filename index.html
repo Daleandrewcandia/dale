@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dale Andrew B. Candia</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="scroll-smooth">
+
+
+  <header class="bg-white shadow-lg py-4 sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between px-4">
+
+      <div class="flex items-center text-primary hover:text-secondary">
+        <img src="images/logo.png" alt="" class="h-8 w-8">
+        <span class="text-2xl font-bold ml-4"></span>
+      </div>
+      <div class="md:hidden">
+        <button id="menu-toggle"
+          class="text-gray-800 hover:text-blue-600 focus:outline-none transition-colors duration-300">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+
+      <nav class="hidden md:block">
+        <ul class="flex space-x-8">
+          <li><a href="#home"
+              class="hover:text-blue-600 focus:text-2 focus:text-blue-800 focus:text-blue-800 transition-colors duration-300">Home</a>
+          </li>
+
+          <li><a href="#gallery"
+              class="hover:text-blue-600 focus:text-2 focus:text-blue-800 focus:text-blue-800 transition-colors duration-300">Gallery</a>
+          </li>
+          <li><a href="#aboutus"
+              class="hover:text-blue-600 focus:text-2 focus:text-blue-800 focus:text-blue-800 transition-colors duration-300">About</a>
+          </li>
+
+
+          <li><a href="#contact"
+              class="hover:text-blue-600 focus:text-2 focus:text-blue-800 focus:text-blue-800 transition-colors duration-300">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <nav id="mobile-menu"
+      class="hidden md:hidden bg-gray-50 border-t border-gray-200 transition-height duration-300 ease-in-out">
+      <ul class="px-4 py-2">
+        <li><a href="#home"
+            class="block py-2 hover:text-blue-600 focus:text-2 focus:text-blue-800 focus:text-blue-800 transition-colors duration-300">Home</a>
+        </li>
+        <li><a href="#gallery"
+            class="block py-2 hover:text-blue-600 focus:text-2 focus:text-blue-800 focus:text-blue-800 transition-colors duration-300">Gallery</a>
+        </li>
+        <li><a href="#aboutus"
+            class="block py-2 hover:text-blue-600 focus:text-2 focus:text-blue-800 focus:text-blue-800 transition-colors duration-300">About</a>
+        </li>
+        <li><a href="#contact"
+            class="block py-2 hover:text-blue-600 focus:text-2 focus:text-blue-800 focus:text-blue-800 transition-colors duration-300">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class=" py-20 bg-white md:px-0" id="home">
+    <div class="container items-center px-8 mx-auto xl:px-5">
+      <div class="flex flex-wrap items-center sm:-mx-3">
+        <div class="w-full md:w-1/2 md:px-3">
+          <div
+            class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
+            <h1
+              class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+              <span class="block xl:inline ">Welcome To</span>
+              <span class="block text-indigo-600 xl:inline ">Municipality of Tangub City</span>
+            </h1>
+            <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl text-justify">Tangub City is
+              located at the
+              southern curve of the D-shaped province of Misamis
+              Occidental. It is embraced by the placid water of Panguil Bay in the South, sheltered from the onslaught
+              of
+              typhoon by the mighty Mt. Malindang Range in the North, bordered by Ozamiz City in the East and the
+              Municipality of Bonifacio in the West.</p>
+            <div class="relative flex flex-col sm:flex-row sm:space-x-4">
+              <a href="https://www.facebook.com/tangubcity/"
+                class="flex w-full items-center justify-center gap-1 rounded-2xl bg-rose-500 p-5 py-3 font-semibold text-white hover:bg-rose-700">
+                Follow
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2">
+          <div class="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
+            <img src="images/cityhall.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="mx-auto px-6 text-gray-800 md:max-w-screen-xl"></section>
+    <div class="mx-auto mt-20 mb-16 block px-6 text-center">
+      <h2 class="mx-auto text-3xl font-bold md:text-4xl">GOD - CENTERED CITY: "UNA ANG GINOO"</h2>
+      <div class="mx-auto mt-6 mb-auto block w-full font-normal leading-9 text-gray-700 md:w-3/4 xl:w-3/4">
+        <p class=" text-xl">MANTRA</p>
+      </div>
+
+    </div>
+
+    <div class="grid gap-10 pb-20 sm:grid-cols-2 lg:grid-cols-2">
+      <div class="rounded-md border border-gray-200 bg-white p-8 shadow-sm hover:shadow-xl duration-300">
+        <div class="my-4 flex items-center">
+          <div
+            class="mr-4 flex h-12 w-12 items-center justify-center rounded-lg border bg-blue-50 text-2xl text-blue-500">
+            <!-- et:beaker -->
+            <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 32 32" xml:space="preserve" fill="#000000">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <style type="text/css">
+                  .st0 {
+                    fill: none;
+                    stroke: #000000;
+                    stroke-width: 2;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 10;
+                  }
+                </style>
+                <line class="st0" x1="16" y1="16" x2="22" y2="10"></line>
+                <polygon class="st0" points="30,6 26,6 26,2 22,6 22,10 26,10 "></polygon>
+                <circle class="st0" cx="16" cy="16" r="6"></circle>
+                <path class="st0" d="M27,9c1.3,2,2,4.4,2,7c0,7.2-5.8,13-13,13S3,23.2,3,16S8.8,3,16,3c2.6,0,5,0.7,7,2">
+                </path>
+              </g>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold md:text-xl">Mission</h3>
+        </div>
+        <p class="text-gray-700"> To integrate and ensure the delivery of quality basic services and promote eco-tourism
+          investment through good governance in order to uplift the living standard of the people. </p>
+      </div>
+      <div class="rounded-md border border-gray-200 bg-white p-8 shadow-sm hover:shadow-xl duration-300">
+        <div class="my-4 flex items-center">
+          <div
+            class="mr-4 flex h-12 w-12 items-center justify-center rounded-lg border bg-blue-50 text-2xl text-blue-500">
+            <!-- et:beaker -->
+            <svg viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>eye</title>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Shape" fill="#000000" transform="translate(42.666667, 85.333333)">
+                    <path
+                      d="M213.333333,1.42108547e-14 C64,1.42108547e-14 7.10542736e-15,170.666667 7.10542736e-15,170.666667 C7.10542736e-15,170.666667 64,341.333333 213.333333,341.333333 C362.666667,341.333333 426.666667,170.666667 426.666667,170.666667 C426.666667,170.666667 362.666667,1.42108547e-14 213.333333,1.42108547e-14 Z M213.333333,298.666667 C119.071573,298.666667 64.7370667,207.3632 46.7136,170.67328 C64.7850667,133.88928 119.114667,42.6666667 213.333333,42.6666667 C307.595093,42.6666667 361.9296,133.970133 379.954347,170.658773 C361.8816,207.444053 307.552,298.666667 213.333333,298.666667 Z M213.333333,96 C172.096427,96 138.666667,129.42976 138.666667,170.666667 C138.666667,211.903573 172.096427,245.333333 213.333333,245.333333 C254.57024,245.333333 288,211.903573 288,170.666667 C288,129.42976 254.57024,96 213.333333,96 Z M213.333333,202.666667 C195.688747,202.666667 181.333333,188.311253 181.333333,170.666667 C181.333333,153.02208 195.688747,138.666667 213.333333,138.666667 C230.97792,138.666667 245.333333,153.02208 245.333333,170.666667 C245.333333,188.311253 230.97792,202.666667 213.333333,202.666667 Z">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold md:text-xl">Vision</h3>
+        </div>
+        <p class="text-gray-700"> A God-Centered City, Learning Center, Vibrant Business Hub, Premier Eco-tourism
+          Destination in Northwestern MIndanao with empowered stakeholders living in a peaceful, progressive and happy
+          environment spearheaded by committed and competent servant leaders. </p>
+      </div>
+    </div>
+  </section>
+
+  </section>
+
+
+  
+  <section class="my-4 py-8" id="gallery">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Gallery</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="flex transition-transform duration-1000 ease-in-out animate-slider" id="slider-images-tourst">
+            <div class="w-full flex">
+              <img src="images/image-2.jpg" alt="wheat flour grinding" class="w-full h-64 object-cover">
+              <img src="images/image (3).png" alt="wheat flour grinding" class="w-full h-64 object-cover">
+            </div>
+          </div>
+
+          <div class="p-6 text-center">
+            <h3 class="text-xl font-medium text-gray-800 mb-2">Hoyohoy View Deck</h3>
+            <p class="text-gray-700 text-base">Watch a spectacular aerial perspective of the Belvedere Hoyohoy View Deck on top of Fertig Hills in Barangay Hoyohoy, Tangub City, Misamis Occidental. Belvedere Hoyohoy View Deck is located right at the foot of Mt. Malindang Range Natural Park.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="images/img-20190903-102854-01.jpg" alt="Coffee" class="w-full h-64 object-cover">
+          <div class="p-6 text-center">
+            <h3 class="text-xl font-medium text-gray-800 mb-2">Stone Chapel</h3>
+            <p class="text-gray-700 text-base">A perfect view for getting selfies, capture the beautiful stone chapel and rock formations while having a serene time capturing the greenery down below. If you are into adventure, you might want to try zip lining too but be sure to visit the place earlier since a lot of tourists line up to explore and get themselves hanging on out there as well.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="images/Media (1).jpg"
+            alt="Coffee" class="w-full h-64 object-cover">
+          <div class="p-6 text-center">
+            <h3 class="text-xl font-medium text-gray-800 mb-2">Beck's Encantadia Farm</h3>
+            <p class="text-gray-700 text-base">Come and Visit Beck's Encantadia Farm @Capalaran, Tangub City.
+              Enjoy and Have Fun in one of the most beautiful tourist spot in Tangub City
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- about us -->
+  <section class="bg-gray-100" id="aboutus">
+    <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+        <div class="max-w-lg">
+
+          <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">About Us</h2>
+          <p class="mt-4 text-gray-600 text-lg text-justify">
+            The city of Tangub grew from a small town. The city's name came from the Subanen word "Tangkub", which is a
+            rice container made of tree bark woven together by rattan strips. There are several stories regarding how
+            Tangub got its name. One version tells about a Spanish soldier on patrol in the area who found a dead man
+            whom the Subanens described as bitten by a snake inside the “tangkub” when he checked if there was still
+            rice in the container. Not understanding the dialect, the soldiers reported that there was a dead man from
+            “tangkub” and the name stuck, which later on was changed to Tangub. Another version is about Spanish
+            soldiers who got lost and encountered a Subanen couple. When asked about the location, the couple, thinking
+            they were asked about the containers they were carrying, replied with "tangkub".Tangub City has won a record
+            of twelve grand champion streak in the Sinulog-Based Category of the festival. Through the recent years,
+            Tangub has been popularly dubbed as the Christmas Symbols Capital of the Philippines. Every year, the city
+            will celebrate Christmas through the Tangub City Christmas Festival of Lights.</p>
+        </div>
+        <div id="slider" class="relative mt-12 md:mt-0 w-full overflow-hidden">
+          <!-- Images Wrapper -->
+          <div class="flex transition-transform duration-1000 ease-in-out animate-slider" id="slider-images">
+            <div class="w-full flex">
+              <img src="images/19489495_1480333865367271_944578610_n.jpg" alt="About Us Image"
+                class="object-cover rounded-lg shadow-md">
+              <img src="images/sinulog.jpg" alt="Another Image"
+                class="object-cover rounded-lg shadow-md">
+              <img src="images/image-1.png" alt="Another Image" class="object-cover rounded-lg shadow-md">
+              <img src="images/Tangub_City_Hall_(J._Luna,_Tangub,_Misamis_Occidental;_10-15-2023).jpg"
+                alt="Another Image" class="object-cover rounded-lg shadow-md">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Visit us section -->
+  <section id="contact" class=" bg-white">
+    <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-20 lg:px-8">
+      <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-extrabold text-gray-900" id="contactUs">Visit Our Location</h2>
+        <p class="mt-3 text-lg text-gray-500">Explore the beauty of Tangub, one step at a time</p>
+      </div>
+      <div class="mt-8 lg:mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <div class="max-w-full mx-auto rounded-lg overflow-hidden">
+              <div class="border-t border-gray-200 px-6 py-4">
+                <h3 class="text-lg font-bold text-gray-900">Contact</h3>
+                <p class="mt-1 font-bold text-gray-600"><a href="tel:+123">Phone: +91
+                    123456789</a></p>
+                <a class="flex m-1" href="tel:+919823331842">
+                  <div class="flex-shrink-0">
+                    <div class="flex items-center justify-between h-10 w-30 rounded-md bg-indigo-500 text-white p-2">
+                      <!-- Heroicon name: phone -->
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                      </svg>
+                      Call now
+                    </div>
+                  </div>
+
+                </a>
+              </div>
+              <div class="px-6 py-4">
+                <h3 class="text-lg font-medium text-gray-900">Our Address</h3>
+                <p class="mt-1 text-gray-600">Maloro, Tangub City</p>
+              </div>
+              <div class="border-t border-gray-200 px-6 py-4">
+                <h3 class="text-lg font-medium text-gray-900">Hours</h3>
+                <p class="mt-1 text-gray-600">Monday - Sunday : 8am - 9pm</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-lg overflow-hidden order-none sm:order-first">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5427.694163801828!2d123.75138583664658!3d8.058557585746115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32544c586cd142a5%3A0x432227ecbe5b7109!2sTangub%20City%20Plaza!5e0!3m2!1sen!2sph!4v1734331959919!5m2!1sen!2sph"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <script>
+    document.getElementById("hamburger").onclick = function toggleMenu() {
+      const navToggle = document.getElementsByClassName("toggle");
+      for (let i = 0; i < navToggle.length; i++) {
+        navToggle.item(i).classList.toggle("hidden");
+      }
+    };
+  </script>
+  <script>
+    // Toggle mobile menu
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      if (!mobileMenu.classList.contains('hidden')) {
+        mobileMenu.style.height = mobileMenu.scrollHeight + "px"; // Set height for transition
+      } else {
+        mobileMenu.style.height = "0";
+      }
+    });
+
+    // Toggle mobile services dropdown
+    const servicesDropdownToggle = document.getElementById('services-dropdown-toggle');
+    const servicesDropdown = document.getElementById('services-dropdown');
+
+    servicesDropdownToggle.addEventListener('click', () => {
+      servicesDropdown.classList.toggle('hidden');
+    });
+  </script>
+
+  <script>
+    // JavaScript to automatically slide the images
+    let currentIndex = 0;
+    const sliderImages = document.getElementById('slider-images');
+    const totalImages = document.querySelectorAll('#slider-images img').length;
+
+    function slide() {
+      currentIndex++;
+      if (currentIndex >= totalImages) {
+        currentIndex = 0; // Reset to the first image after reaching the end
+      }
+
+      const offset = -currentIndex * 100; // Calculate the offset for sliding
+      sliderImages.style.transform = `translateX(${offset}%)`;
+    }
+
+    // Set the interval for sliding the images every 3 seconds
+    setInterval(slide, 3000);
+  </script>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+  </script>
+</body>
+
+</html>
